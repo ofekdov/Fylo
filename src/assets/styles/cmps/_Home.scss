@@ -1,0 +1,33 @@
+.home {
+    color: $White;
+    position: relative;
+    height: 80vh;
+    img {
+        margin-top: 15px;
+        height: 330px;
+    }
+    .title {
+        margin: 0;
+        font-size: 26px;
+    }
+    p {
+        width: 300px;
+        margin: auto;
+        margin-block: 20px;
+    }
+    .start-btn {
+        background-color: $Blue;
+        width: 250px;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .icon {
+        width: 100%;
+        margin-bottom: 150px;
+        z-index: -1;
+        position: absolute;
+        bottom: 200px;
+        height: 0px;
+    }
+}

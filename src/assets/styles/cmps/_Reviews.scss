@@ -1,0 +1,46 @@
+.reviews {
+    background-color: $clr102;
+    padding-block: 50px;
+    
+    .reviews-msgs {
+        gap: 20px;
+        .review {
+            position: relative;
+            color: rgb(199, 199, 199);
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding: 10px;
+            padding-inline: 15px;
+            width: 390px;
+            background-color: $clr104;
+            z-index: 1;
+            .quotes {
+                position: absolute;
+                left: -10px;
+                top: -30px;
+            }
+            p {
+                margin-top: 20px;
+            }
+            .profile-img {
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+            }
+            .profile {
+                gap: 7px;
+                .profile-info {
+                    align-items: start;
+                    .name {
+                        font-size: 12px;
+                    }
+                    .job {
+                        font-size: 10px;
+                        color: rgb(171, 171, 171);
+                    }
+                }
+            }
+        }
+    }
+}
